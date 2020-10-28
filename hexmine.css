@@ -14,16 +14,13 @@
 
 table {
   margin: auto;
-  /*border: 1px solid black;*/
   width: 600px;
   background-color: #994a2d;
-  /*table-layout: fixed;*/
 
 }
 th {
   width: 30%;
   height: 100%;
-  /*background-color: #994a2d;*/
   color: white;
 }
 
@@ -40,8 +37,7 @@ th {
 }
 
 #chaser {
-  /*background-repeat: no-repeat;*/
-  background: url('../HexMine/KoormaChasing.png');
+  background: url('/KoormaChasing.png');
   background-size: 200% 100%;
   animation: play 25s steps(2000) infinite;
 }
@@ -50,8 +46,7 @@ th {
 }
 
 #chaser2 {
-  /*background-repeat: no-repeat;*/
-  background: url('../HexMine/KoormaChasing2.png');
+  background: url('/KoormaChasing2.png');
   background-size: 200% 100%;
   animation: play2 25s steps(2000) infinite;
 }
