@@ -1,0 +1,68 @@
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+   margin: auto;
+}
+
+table {
+  margin: auto;
+  /*border: 1px solid black;*/
+  width: 600px;
+  background-color: #994a2d;
+  /*table-layout: fixed;*/
+
+}
+th {
+  width: 30%;
+  height: 100%;
+  /*background-color: #994a2d;*/
+  color: white;
+}
+
+#newGame {
+  background-color: #348eaf;
+  cursor: pointer;
+}
+#newGame:hover {
+  background-color: #37a6ce;
+}
+
+#takeUpSpace {
+  min-height: 1px;
+}
+
+#chaser {
+  /*background-repeat: no-repeat;*/
+  background: url('../HexMine/KoormaChasing.png');
+  background-size: 200% 100%;
+  animation: play 25s steps(2000) infinite;
+}
+@keyframes play {
+   100% { background-position: 2000px; }
+}
+
+#chaser2 {
+  /*background-repeat: no-repeat;*/
+  background: url('../HexMine/KoormaChasing2.png');
+  background-size: 200% 100%;
+  animation: play2 25s steps(2000) infinite;
+}
+@keyframes play2 {
+   100% { background-position: -2000px; }
+}
+
+#winAlert {
+  vertical-align: top;
+}
+
+.description {
+  text-align: left;
+}
